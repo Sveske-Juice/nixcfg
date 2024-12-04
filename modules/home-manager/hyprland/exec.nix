@@ -9,5 +9,7 @@
     "systemctl --user start hyprpolkitagent"
 
     "waybar 2>&1 > /tmp/waybarlog.txt"
+    "syncthingtray --wait & disown"
+    "wl-paste --watch cliphist store & disown"
   ];
 }

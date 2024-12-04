@@ -108,12 +108,13 @@
             };
             clock = {
                 format = "{:%H:%M | %e. %B} ";
-                format-alt = "{:%Y-%m-%d}";
+                format-alt = "{:%d-%m-%Y}";
                 tooltip-format = "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>";
             };
             "custom/powermenu" = {
                 on-click = "wlogout";
                 format = "⏻ ";
+                tooltip-format = "Power options";
             };
         };
     };
