@@ -52,6 +52,7 @@ window#waybar.empty .modules-center {
 #scratchpad,
 #power-profiles-daemon,
 #language,
+#custom-powermenu,
 #mpd {
     padding: 5px 5px;
     border-radius: 10px;
@@ -75,6 +76,7 @@ window#waybar.empty .modules-center {
 #scratchpad:hover,
 #power-profiles-daemon:hover,
 #language:hover,
+#custom-powermenu:hover,
 #mpd:hover {
     background: @theme_selected_bg_color;
 }
@@ -91,6 +93,11 @@ window#waybar.empty .modules-center {
 
 #temperature.critical {
     background: #ff0000;
+}
+
+#custom-powermenu {
+    color: #cc0000;
+    padding-left: 10px;
 }
 
 #workspaces button {

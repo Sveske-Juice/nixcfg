@@ -14,6 +14,7 @@
     ../../modules/fonts.nix
     ../../modules/stylix
     ../../modules/thunar.nix
+    ../../modules/home-manager/qt.nix
 
     ../../modules/hyprland.nix
       

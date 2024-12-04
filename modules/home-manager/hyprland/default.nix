@@ -7,6 +7,8 @@
   ]; */
   imports = [
     ./exec.nix
+    ./hyprlock.nix
+    ./hypridle.nix
   ];
 
   /* xdg.portal = {

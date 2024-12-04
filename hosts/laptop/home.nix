@@ -10,6 +10,7 @@
     ../../modules/home-manager/dunst.nix
 
     ../../modules/home-manager/gtk.nix
+        #../../modules/home-manager/qt.nix
 
     # Programs
     ../../modules/zsh.nix
@@ -18,6 +19,7 @@
     ../../modules/home-manager/tofi.nix
     ../../modules/home-manager/alacritty.nix
     ../../modules/home-manager/spicetify.nix
+    ../../modules/home-manager/wlogout.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
@@ -33,6 +35,7 @@
     pfetch
     nsxiv
     mpv
+    keepassxc
 
     wl-clipboard
     libnotify

@@ -1,4 +1,3 @@
-# Not part of stylix but added in here anyway
 {lib, config, pkgs, ... }:
 
 {

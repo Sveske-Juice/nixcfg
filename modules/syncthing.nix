@@ -2,9 +2,9 @@
 
 {
   environment.systemPackages = with pkgs; [
-    syncthing
     syncthingtray
   ];
+
   services.syncthing = {
       enable = true;
       group = "users";

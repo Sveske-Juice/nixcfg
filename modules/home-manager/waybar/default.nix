@@ -28,6 +28,7 @@
                 "temperature"
                 "battery"
                 "clock"
+                "custom/powermenu"
             ];
             tray = {
                 icon-size = "24";
@@ -109,6 +110,10 @@
                 format = "{:%H:%M | %e. %B} ";
                 format-alt = "{:%Y-%m-%d}";
                 tooltip-format = "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>";
+            };
+            "custom/powermenu" = {
+                on-click = "wlogout";
+                format = "⏻ ";
             };
         };
     };
